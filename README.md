@@ -1,5 +1,1 @@
-# React with Bootstrap Starter Project
-
-> Provided for the students of the [Bottega Code School](https://bottega.tech/)
-
-*Fork from [es6-webpack2-starter](https://github.com/micooz/es6-webpack2-starter)*
+***This is a clicker game based off the game Skyrim that is a little glitchy because I accidentally commited my latest change to the todo list repository***

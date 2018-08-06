@@ -210,7 +210,7 @@
 .container img {
     width: 25%;
     height: 50%;
-    padding-left: 345px;
+    padding-left: 335px;
 }
 .container img:hover {
     cursor: pointer;
@@ -245,45 +245,66 @@ h1,h2{
   }
   .rainbow {
      /* Chrome, Safari, Opera */
-    -webkit-animation: rainbow 3s infinite; 
+    -webkit-animation: rainbow 5s infinite; 
     
     /* Internet Explorer */
-    -ms-animation: rainbow 3s infinite;
+    -ms-animation: rainbow 5s infinite;
     
     /* Standar Syntax */
-    animation: rainbow 3s infinite; 
+    animation: rainbow 5s infinite; 
   }
   
   /* Chrome, Safari, Opera */
   @-webkit-keyframes rainbow{
     0%{color: red;}	
-    10%{color: orange;}	
-      20%{color: yellow;}
-      40%{color: green;}
-      60%{color: blue;}
-      100%{color: indigo;}
-      100%{color: violet;}	
+    5%{color: rgb(150, 0, 0);}	
+    10%{color: orange;}
+    20%{color: rgb(160, 104, 0);}
+    30%{color: yellow;}
+    50%{color: rgb(136, 136, 0);}
+    50%{color: rgb(0, 255, 0);}
+    60%{color: green;}	
+    70%{color: blue;}	
+    80%{color: rgb(0, 0, 114);}
+    90%{color: rgb(149, 0, 255);}
+    95%{color: indigo;}
+    100%{color: violet;}
+    100%{color: rgb(119, 63, 119);}	
   }
   /* Internet Explorer */
   @-webkit-keyframes rainbow{
     0%{color: red;}	
-    10%{color: orange;}	
-      20%{color: yellow;}
-      40%{color: green;}
-      60%{color: blue;}
-      100%{color: indigo;}
-      100%{color: violet;}		
+    5%{color: rgb(150, 0, 0);}	
+    10%{color: orange;}
+    20%{color: rgb(160, 104, 0);}
+    30%{color: yellow;}
+    50%{color: rgb(136, 136, 0);}
+    50%{color: rgb(0, 255, 0);}
+    60%{color: green;}	
+    70%{color: blue;}	
+    80%{color: rgb(0, 0, 114);}
+    90%{color: rgb(149, 0, 255);}
+    95%{color: indigo;}
+    100%{color: violet;}
+    100%{color: rgb(119, 63, 119);}		
   }
   
   /* Standar Syntax */
   @-webkit-keyframes rainbow{
     0%{color: red;}	
-    10%{color: orange;}	
-      20%{color: yellow;}
-      40%{color: green;}
-      60%{color: blue;}
-      100%{color: indigo;}
-      100%{color: violet;}	
+    5%{color: rgb(150, 0, 0);}	
+    10%{color: orange;}
+    20%{color: rgb(160, 104, 0);}
+    30%{color: yellow;}
+    50%{color: rgb(136, 136, 0);}
+    50%{color: rgb(0, 255, 0);}
+    60%{color: green;}	
+    70%{color: blue;}	
+    80%{color: rgb(0, 0, 114);}
+    90%{color: rgb(149, 0, 255);}
+    95%{color: indigo;}
+    100%{color: violet;}
+    100%{color: rgb(119, 63, 119);}	
   }
   
   body{
@@ -293,6 +314,7 @@ h1,h2{
   .dragon {
       height: 400px;
       width: 225px;
+      padding-top: 65px;
   }
   .dragon:hover {
       cursor: pointer;

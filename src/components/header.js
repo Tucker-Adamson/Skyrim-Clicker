@@ -10,10 +10,10 @@ const Header = () => {
                     Skyrim:
                 </h1>
             <p>The Greatest Version</p>
-            <h2 className="score">Gold: 0</h2>
+            
         </div>
 
     )
 }
-console.log("hrughruahr")
+console.log("Fus Ro Da")
 export default Header;

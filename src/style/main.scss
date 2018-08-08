@@ -314,8 +314,17 @@ h1,h2{
   .dragon {
       height: 400px;
       width: 225px;
-      padding-top: 65px;
+      padding-top: 6px;
   }
   .dragon:hover {
       cursor: pointer;
+  }
+
+  .link {
+      color: grey;
+      font-size: 24px;
+      font-family: 'Hanalei Fill', cursive;
+  }
+  .link:hover {
+      color: rgb(90, 90, 90);
   }

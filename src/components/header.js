@@ -10,7 +10,6 @@ const Header = () => {
                     Skyrim:
                 </h1>
             <p>The Greatest Version</p>
-            
         </div>
 
     )

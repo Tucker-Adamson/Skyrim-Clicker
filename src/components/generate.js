@@ -20,6 +20,8 @@ class Generate extends Component {
                 <h2 className="score">Gold:</h2>
                 <h2 className="score__text"> { this.state.Score }</h2>
                 <img id="dragon" className="dragon" onClick={this.click} src={dragon} />
+                <p> </p>
+                <a className="link" href="https://www.youtube.com/channel/UCBCLmakekA6vzIZ5XPlD4mQ">My Youtube Channel</a>
             </div>
         )
     }

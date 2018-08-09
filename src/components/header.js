@@ -9,7 +9,8 @@ const Header = () => {
                 <h1 className='rainbow'>
                     Skyrim:
                 </h1>
-            <p>The Greatest Version</p>
+            <h1 className="great">The Clicker Version</h1>
+            <h3 className="description">Click the dragon to kill it and take it's gold</h3>
         </div>
 
     )

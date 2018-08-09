@@ -28,14 +28,14 @@ class Generate extends Component {
     
     click() {
         var element = document.getElementById("dragon");
-        var randomNumber = Math.floor(Math.random() * 200) + 202;
+        var randomNumber = Math.floor(Math.random() * 180) + 223;
         Total = Total + (randomNumber);
         this.setState({
             Score: Total
         })
         console.log(Total)
+        console.log("You Fus Ro Da'd a dragon" )
     }
-
     }
 
 export default Generate;

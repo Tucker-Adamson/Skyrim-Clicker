@@ -261,14 +261,14 @@ h1,h2{
     10%{color: orange;}
     20%{color: rgb(160, 104, 0);}
     30%{color: yellow;}
-    50%{color: rgb(136, 136, 0);}
+    40%{color: rgb(136, 136, 0);}
     50%{color: rgb(0, 255, 0);}
     60%{color: green;}	
     70%{color: blue;}	
     80%{color: rgb(0, 0, 114);}
     90%{color: rgb(149, 0, 255);}
     95%{color: indigo;}
-    100%{color: violet;}
+    99%{color: violet;}
     100%{color: rgb(119, 63, 119);}	
   }
   /* Internet Explorer */
@@ -278,14 +278,14 @@ h1,h2{
     10%{color: orange;}
     20%{color: rgb(160, 104, 0);}
     30%{color: yellow;}
-    50%{color: rgb(136, 136, 0);}
+    40%{color: rgb(136, 136, 0);}
     50%{color: rgb(0, 255, 0);}
     60%{color: green;}	
     70%{color: blue;}	
     80%{color: rgb(0, 0, 114);}
     90%{color: rgb(149, 0, 255);}
     95%{color: indigo;}
-    100%{color: violet;}
+    99%{color: violet;}
     100%{color: rgb(119, 63, 119);}		
   }
   
@@ -296,16 +296,144 @@ h1,h2{
     10%{color: orange;}
     20%{color: rgb(160, 104, 0);}
     30%{color: yellow;}
-    50%{color: rgb(136, 136, 0);}
+    40%{color: rgb(136, 136, 0);}
     50%{color: rgb(0, 255, 0);}
     60%{color: green;}	
     70%{color: blue;}	
     80%{color: rgb(0, 0, 114);}
     90%{color: rgb(149, 0, 255);}
     95%{color: indigo;}
-    100%{color: violet;}
+    99%{color: violet;}
     100%{color: rgb(119, 63, 119);}	
   }
+
+  .rainbow2 {
+    /* Chrome, Safari, Opera */
+   -webkit-animation: rainbow 5s infinite; 
+   
+   /* Internet Explorer */
+   -ms-animation: rainbow 5s infinite;
+   
+   /* Standar Syntax */
+   animation: rainbow 5s infinite; 
+ }
+ 
+ /* Chrome, Safari, Opera */
+ @-webkit-keyframes rainbow{
+   0%{color: blue;}	
+   5%{color: rgb(150, 0, 0);}	
+   10%{color: pink;}
+   20%{color: rgb(160, 104, 0);}
+   30%{color: beige;}
+   40%{color: rgb(136, 136, 0);}
+   50%{color: rgb(0, 255, 0);}
+   60%{color: black;}	
+   70%{color: rgb(126, 50, 50);}	
+   80%{color: rgb(0, 0, 114);}
+   90%{color: rgb(149, 0, 255);}
+   95%{color: indigo;}
+   99%{color: yellowgreen;}
+   100%{color: rgb(119, 63, 119);}	
+ }
+ /* Internet Explorer */
+ @-webkit-keyframes rainbow{
+   0%{color: red;}	
+   5%{color: rgb(150, 0, 0);}	
+   10%{color: orange;}
+   20%{color: rgb(160, 104, 0);}
+   30%{color: yellow;}
+   50%{color: rgb(136, 136, 0);}
+   50%{color: rgb(0, 255, 0);}
+   60%{color: green;}	
+   70%{color: blue;}	
+   80%{color: rgb(0, 0, 114);}
+   90%{color: rgb(149, 0, 255);}
+   95%{color: indigo;}
+   99%{color: violet;}
+   100%{color: rgb(119, 63, 119);}		
+ }
+ 
+ /* Standar Syntax */
+ @-webkit-keyframes rainbow{
+   0%{color: red;}	
+   5%{color: rgb(150, 0, 0);}	
+   10%{color: orange;}
+   20%{color: rgb(160, 104, 0);}
+   30%{color: yellow;}
+   50%{color: rgb(136, 136, 0);}
+   50%{color: rgb(0, 255, 0);}
+   60%{color: green;}	
+   70%{color: blue;}	
+   80%{color: rgb(0, 0, 114);}
+   90%{color: rgb(149, 0, 255);}
+   95%{color: indigo;}
+   99%{color: violet;}
+   100%{color: rgb(119, 63, 119);}	
+ }
+
+ .rainbow3 {
+    /* Chrome, Safari, Opera */
+   -webkit-animation: rainbow 5s infinite; 
+   
+   /* Internet Explorer */
+   -ms-animation: rainbow 5s infinite;
+   
+   /* Standar Syntax */
+   animation: rainbow 5s infinite; 
+ }
+ 
+ /* Chrome, Safari, Opera */
+ @-webkit-keyframes rainbow{
+   0%{color: beige;}	
+   5%{color: rgb(150, 0, 0);}	
+   10%{color: yellowgreen;}
+   20%{color: rgb(160, 104, 0);}
+   30%{color: coral;}
+   50%{color: rgb(136, 136, 0);}
+   50%{color: rgb(0, 255, 0);}
+   60%{color: cornsilk;}	
+   70%{color: cornflowerblue;}	
+   80%{color: rgb(0, 0, 114);}
+   90%{color: rgb(149, 0, 255);}
+   95%{color: grey;}
+   99%{color: silver;}
+   100%{color: rgb(119, 63, 119);}	
+ }
+ /* Internet Explorer */
+ @-webkit-keyframes rainbow{
+   0%{color: red;}	
+   5%{color: rgb(150, 0, 0);}	
+   10%{color: orange;}
+   20%{color: rgb(160, 104, 0);}
+   30%{color: yellow;}
+   50%{color: rgb(136, 136, 0);}
+   50%{color: rgb(0, 255, 0);}
+   60%{color: green;}	
+   70%{color: blue;}	
+   80%{color: rgb(0, 0, 114);}
+   90%{color: rgb(149, 0, 255);}
+   95%{color: indigo;}
+   99%{color: violet;}
+   100%{color: rgb(119, 63, 119);}		
+ }
+ 
+ /* Standar Syntax */
+ @-webkit-keyframes rainbow{
+   0%{color: red;}	
+   5%{color: rgb(150, 0, 0);}	
+   10%{color: orange;}
+   20%{color: rgb(160, 104, 0);}
+   30%{color: yellow;}
+   50%{color: rgb(136, 136, 0);}
+   50%{color: rgb(0, 255, 0);}
+   60%{color: green;}	
+   70%{color: blue;}	
+   80%{color: rgb(0, 0, 114);}
+   90%{color: rgb(149, 0, 255);}
+   95%{color: indigo;}
+   99%{color: violet;}
+   100%{color: rgb(119, 63, 119);}	
+ }
   
   body{
     background-image: url(http://fjordstudio.dk/assets/img/bg/diamonds.png);
@@ -315,6 +443,7 @@ h1,h2{
       height: 400px;
       width: 225px;
       padding-top: 6px;
+      margin-left: 25px;
   }
   .dragon:hover {
       cursor: pointer;
@@ -322,9 +451,27 @@ h1,h2{
 
   .link {
       color: grey;
-      font-size: 24px;
+      font-size: 30px;
       font-family: 'Hanalei Fill', cursive;
   }
   .link:hover {
       color: rgb(90, 90, 90);
+  }
+
+  .great {
+      color: grey;
+      font-size: 30px;
+  }
+
+  .score{
+      color: grey;
+  }
+
+  .score__text{
+      color: black;
+  }
+
+  .description {
+      color: black;
+      font-size: 30px;
   }
